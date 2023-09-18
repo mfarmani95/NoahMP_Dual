@@ -1,0 +1,25 @@
+&NOAHLSM_OFFLINE
+ DIR      = "../Noah_data"
+ fini     = 'arbitrary initialization'
+!Fini     = "../Noah_data/results/exp1/ini/Noah.ini.201312312400.dat"
+ EXP      = "exp2"
+ NSOIL    = 4
+ NX       = 464
+ NY       = 224
+ DZS(1)   = 0.05
+ DZS(2)   = 0.35
+ DZS(3)   = 0.60
+ DZS(4)   = 1.00
+ START_YEAR  = 1980
+ START_MONTH = 01
+ START_DAY   = 01
+ START_HOUR  = 00
+ START_MIN   = 00
+ end_year    = 1980
+ DT      = 3600.
+ Z_ML    = 10.0
+ nspin   = 1
+ VARSD   = 1              !1->constant soil depth; 2->variable depth
+ VG_DATA = false          !ML-based Ksat
+&END
+ fini     = 'arbitrary initialization'

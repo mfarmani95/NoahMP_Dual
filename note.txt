@@ -1,0 +1,7 @@
+exp1:   Run-CH  -> CH; HTOPMAX = 30. mm ; variable soil depth ; 5 spin up; single domain 
+exp2:   Run_VG  -> VG; HTOPMAX = 30. mm ; variable soil depth ; 5 spin up; single domain
+exp3:   Run-VG  -> VG; HTOPMAX = 30. mm ; variable soil depth ; 5 spin up; Macropore Fraction = MIN(0.20,MAX(0.05,soilcar(:,:)/1000./150.))
+exp4:   Run-VG  -> VG; HTOPMAX = 50. mm ; variable soil depth ; 5 spin up; Macropore Fraction = MIN(0.20,MAX(0.05,soilcar(:,:)/1000./150.))
+exp5:   Run-VG  -> VG; HTOPMAX = 50. mm ; variable soil depth ; 5 spin up; single domain
+exp6:   Run-VG  -> CH; HTOPMAX = 50. mm ; variable soil depth ; 5 spin up; single domain
+

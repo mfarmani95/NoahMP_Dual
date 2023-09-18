@@ -1,0 +1,36 @@
+&NOAHLSM_OFFLINE
+ DIR      = "../Noah_data"
+ fini     = 'arbitrary initialization'
+!Fini     = "/home/u4/niug/5TB/NASA-Dual01/Noah_data/results/exp1/ini/Noah.ini.201312312400.dat"
+ EXP      = "exp2"
+ NSOIL    = 15
+ NX       = 464
+ NY       = 224
+ DZS(1)   = 0.05
+ DZS(2)   = 0.35
+ DZS(3)   = 0.60
+ DZS(4)   = 1.00
+ DZS(5)   = 2.00
+ DZS(6)   = 2.00
+ DZS(7)   = 4.00
+ DZS(8)   = 4.00
+ DZS(9)   = 5.00
+ DZS(10)  = 5.00
+ DZS(11)  = 5.00
+ DZS(12)  = 5.00
+ DZS(13)  = 5.00
+ DZS(14)  = 5.00
+ DZS(15)  = 5.00
+ START_YEAR  = 2014
+ START_MONTH = 01
+ START_DAY   = 01
+ START_HOUR  = 00
+ START_MIN   = 00
+ end_year    = 2019
+ DT      = 3600.
+ Z_ML    = 10.0
+ nspin   = 5                 ! number of spin up
+ VARSD   = 2              !1->constant soil depth; 2->variable depth
+ VG_DATA = false          !ML-based Ksat (ML_based VG parameters)
+&END
+ fini     = 'arbitrary initialization'
