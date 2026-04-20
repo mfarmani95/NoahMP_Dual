@@ -105,7 +105,7 @@ Static input datasets (1° resolution):
 ### 1. Compile the Model
 ```bash
 make
-
+```
 If compilation fails:
 
 - Modify the `Makefile` for your system
@@ -139,12 +139,15 @@ From the `Run/` directory:
 ```bash
 
 ./Noah
+
 ```
 ### 4. Output
 
 Simulation results will be written to:
 ```bash
+
 `Noah_data/results/`
+
 ```
 ---
 
