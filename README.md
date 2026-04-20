@@ -139,13 +139,13 @@ From the `Run/` directory:
 ```bash
 
 ./Noah
-
+```
 ### 4. Output
 
 Simulation results will be written to:
-
+```bash
 `Noah_data/results/`
-
+```
 ---
 
 ## Requirements
